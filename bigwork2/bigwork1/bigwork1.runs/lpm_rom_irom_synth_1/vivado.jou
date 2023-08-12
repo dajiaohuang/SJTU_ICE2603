@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 23 20:50:01 2023
+# Process ID: 29284
+# Current directory: D:/Computer_Orgnization_lab/BigWork/lab4_final/lab4_away.runs/lpm_rom_irom_synth_1
+# Command line: vivado.exe -log lpm_rom_irom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lpm_rom_irom.tcl
+# Log file: D:/Computer_Orgnization_lab/BigWork/lab4_final/lab4_away.runs/lpm_rom_irom_synth_1/lpm_rom_irom.vds
+# Journal file: D:/Computer_Orgnization_lab/BigWork/lab4_final/lab4_away.runs/lpm_rom_irom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source lpm_rom_irom.tcl -notrace

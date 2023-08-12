@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 15 21:58:19 2023
+# Process ID: 5904
+# Current directory: F:/ice2603lab/lab_2new/lab_2new.runs/irom_synth_1
+# Command line: vivado.exe -log irom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source irom.tcl
+# Log file: F:/ice2603lab/lab_2new/lab_2new.runs/irom_synth_1/irom.vds
+# Journal file: F:/ice2603lab/lab_2new/lab_2new.runs/irom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source irom.tcl -notrace

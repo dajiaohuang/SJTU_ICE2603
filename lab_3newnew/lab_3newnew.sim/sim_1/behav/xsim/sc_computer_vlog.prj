@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_3newnew.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" \
+"../../../../lab_3newnew.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" \
+"../../../../../zip_lab3 sc_computer_new/src/alu.v" \
+"../../../../../zip_lab3 sc_computer_new/src/cla32.v" \
+"../../../../../zip_lab3 sc_computer_new/src/dff32.v" \
+"../../../../../zip_lab3 sc_computer_new/src/immext.v" \
+"../../../../../zip_lab3 sc_computer_new/src/mux2x32.v" \
+"../../../../../zip_lab3 sc_computer_new/src/mux4x32.v" \
+"../../../../../zip_lab3 sc_computer_new/src/regfile.v" \
+"../../../../../zip_lab3 sc_computer_new/src/sc_cpu.v" \
+"../../../../../zip_lab3 sc_computer_new/src/sc_cu.v" \
+"../../../../../zip_lab3 sc_computer_new/src/sc_datamem.v" \
+"../../../../../zip_lab3 sc_computer_new/src/sc_instmem.v" \
+"../../../../../zip_lab3 sc_computer_new/src/sc_computer.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab4.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" \
+"../../../../lab4.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" \
+"../../../../lab4.srcs/sources_1/imports/imports/Grade_Second_Second-term/lab1/lab1/alu.v" \
+"../../../../lab4.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v" \
+"../../../../lab4.srcs/sources_1/imports/src/clock_and_mem_clock.v" \
+"../../../../lab4.srcs/sources_1/imports/Grade_Second_Second-term/lab2/lab2/dff32.v" \
+"../../../../lab4.srcs/sources_1/imports/src/display.v" \
+"../../../../lab4.srcs/sources_1/imports/new/immext.v" \
+"../../../../lab4.srcs/sources_1/imports/src/in_port.v" \
+"../../../../lab4.srcs/sources_1/imports/src/io_input.v" \
+"../../../../lab4.srcs/sources_1/imports/src/io_output.v" \
+"../../../../lab4.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v" \
+"../../../../lab4.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v" \
+"../../../../lab4.srcs/sources_1/imports/src/out_port_hex2dec.v" \
+"../../../../lab4.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v" \
+"../../../../lab4.srcs/sources_1/imports/src/sc_computer_main.v" \
+"../../../../lab4.srcs/sources_1/imports/src/sc_cpu.v" \
+"../../../../lab4.srcs/sources_1/imports/src/sc_cpu_iotest.v" \
+"../../../../lab4.srcs/sources_1/imports/imports/new/sc_cu.v" \
+"../../../../lab4.srcs/sources_1/imports/src/sc_datamem.v" \
+"../../../../lab4.srcs/sources_1/imports/src/sc_instmem.v" \
+"../../../../lab4.srcs/sources_1/imports/src/seg7.v" \
+"../../../../zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

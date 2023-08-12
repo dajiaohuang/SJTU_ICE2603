@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+F:/ice2603lab/lab1/alu.v,1680239981,verilog,,F:/ice2603lab/lab1/display.v,,alu,,,,,,,,
+F:/ice2603lab/lab1/alu_test_top.v,1680242255,verilog,,,,alu_test_top,,,,,,,,
+F:/ice2603lab/lab1/display.v,1680242046,verilog,,F:/ice2603lab/lab1/seg7.v,,display,,,,,,,,
+F:/ice2603lab/lab1/seg7.v,1679972044,verilog,,F:/ice2603lab/lab1/alu_test_top.v,,seg7,,,,,,,,
+F:/ice2603lab/lab_1/lab_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

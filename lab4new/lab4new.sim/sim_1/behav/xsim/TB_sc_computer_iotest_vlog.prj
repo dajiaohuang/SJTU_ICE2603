@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab4new.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" \
+"../../../../lab4new.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/alu.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/cla32.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/clock_and_mem_clock.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/dff32.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/display.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/immext.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/in_port.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/io_input.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/io_output.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/mux2x32.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/mux4x32.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/out_port_hex2dec.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/regfile.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/sc_computer_main.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/sc_cpu.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/sc_cpu_iotest.v" \
+"../../../../../LAB/lab3/zip_lab3 sc_computer/src/sc_cu.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/sc_datamem.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/sc_instmem.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/src/seg7.v" \
+"../../../../../LAB/lab4/zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

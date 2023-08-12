@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  3 18:34:21 2023
+# Process ID: 7100
+# Current directory: F:/ice2603lab/lab_3newnew/lab_3newnew.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/ice2603lab/lab_3newnew/lab_3newnew.sim/sim_1/behav/xsim/xsim.dir/sc_computer_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/ice2603lab/lab_3newnew/lab_3newnew.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/ice2603lab/lab_3newnew/lab_3newnew.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/ice2603lab/lab_3newnew/lab_3newnew.sim/sim_1/behav/xsim/xsim.dir/sc_computer_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 116.473 ; gain = 17.527
+INFO: [Common 17-206] Exiting Webtalk at Wed May  3 18:34:32 2023...

@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c567d0646b7d431d9674dda1fff55b66 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_behav xil_defaultlib.TB_sc_computer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'x2' is not connected on this instance [F:/ice2603lab/zip_lab3 sc_computer_new/src/sc_cpu.v:86]
+WARNING: [VRFC 10-5021] port 'x2' is not connected on this instance [F:/ice2603lab/zip_lab3 sc_computer_new/src/sc_cpu.v:92]
+WARNING: [VRFC 10-5021] port 'x2' is not connected on this instance [F:/ice2603lab/zip_lab3 sc_computer_new/src/sc_cpu.v:98]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

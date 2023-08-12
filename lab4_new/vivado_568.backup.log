@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 17 23:23:59 2023
+# Process ID: 568
+# Current directory: F:/ice2603lab/lab4_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15988 F:\ice2603lab\lab4_new\lab4_new.xpr
+# Log file: F:/ice2603lab/lab4_new/vivado.log
+# Journal file: F:/ice2603lab/lab4_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ice2603lab/lab4_new/lab4_new.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/ice2603lab/lab4/zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 8
+[Wed May 17 23:24:17 2023] Launched impl_1...
+Run output will be captured here: F:/ice2603lab/lab4_new/lab4_new.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 23:28:32 2023...

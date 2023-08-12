@@ -1,0 +1,20 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+F:/ice2603lab/lab_3new/lab_3new.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v,1682858633,verilog,,F:/ice2603lab/lab_3new/lab_3new.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,,lpm_ram_dq_dram,,,,,,,,
+F:/ice2603lab/lab_3new/lab_3new.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,1682782939,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/alu.v,,lpm_rom_irom,,,,,,,,
+F:/ice2603lab/lab_3new/lab_3new.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v,1682860004,verilog,,,,teatbench,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/alu.v,1653980814,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v,,alu,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v,1586946770,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v,,cla32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v,1635303178,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/immext.v,,dff32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/immext.v,1651562970,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v,,immext,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v,1252908544,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v,,mux2x32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v,1252998688,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v,,mux4x32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v,1639981609,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v,,regfile,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v,1682859207,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v,,sc_computer,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v,1682785158,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v,,sc_cpu,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v,1653983594,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/sc_datamem.v,,sc_cu,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/sc_datamem.v,1652238683,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/sc_instmem.v,,sc_datamem,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/sc_instmem.v,1682784294,verilog,,F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v,,sc_instmem,,,,,,,,

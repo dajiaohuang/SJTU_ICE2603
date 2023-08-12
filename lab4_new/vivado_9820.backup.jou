@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 27 01:03:06 2023
+# Process ID: 9820
+# Current directory: F:/ice2603lab/lab4_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3232 F:\ice2603lab\lab4_new\lab4_new.xpr
+# Log file: F:/ice2603lab/lab4_new/vivado.log
+# Journal file: F:/ice2603lab/lab4_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ice2603lab/lab4_new/lab4_new.xpr
+update_compile_order -fileset sources_1
+file mkdir F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/new
+close [ open F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/new/sys_clk_counter.v w ]
+add_files F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/new/sys_clk_counter.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

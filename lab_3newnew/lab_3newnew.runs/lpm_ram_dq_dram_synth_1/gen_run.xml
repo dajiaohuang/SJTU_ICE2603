@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="lpm_ram_dq_dram_synth_1" LaunchPart="xc7a75tcsg324-1" LaunchTime="1683109297">
+  <File Type="PA-TCL" Name="lpm_ram_dq_dram.tcl"/>
+  <File Type="REPORTS-TCL" Name="lpm_ram_dq_dram_reports.tcl"/>
+  <File Type="RDS-RDS" Name="lpm_ram_dq_dram.vds"/>
+  <File Type="RDS-UTIL" Name="lpm_ram_dq_dram_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="lpm_ram_dq_dram_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="lpm_ram_dq_dram.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/lpm_ram_dq_dram">
+    <File Path="$PSRCDIR/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="lpm_ram_dq_dram"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/lpm_ram_dq_dram">
+    <File Path="$PSRCDIR/sources_1/ip/lpm_ram_dq_dram/lpm_ram_dq_dram.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="lpm_ram_dq_dram"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

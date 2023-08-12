@@ -1,0 +1,33 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../bigwork1.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" \
+"../../../../bigwork1.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" \
+"../../../../bigwork1.srcs/sources_1/imports/imports/Grade_Second_Second-term/lab1/lab1/alu.v" \
+"../../../../bigwork1.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/clock_and_mem_clock.v" \
+"../../../../bigwork1.srcs/sources_1/new/dec2dec.v" \
+"../../../../bigwork1.srcs/sources_1/imports/Grade_Second_Second-term/lab2/lab2/dff32.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/display.v" \
+"../../../../bigwork1.srcs/sources_1/imports/new/immext.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/in_port.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/io_input.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/io_output.v" \
+"../../../../bigwork1.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v" \
+"../../../../bigwork1.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/out_port_hex2dec.v" \
+"../../../../bigwork1.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/sc_computer_main.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/sc_cpu.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/sc_cpu_iotest.v" \
+"../../../../bigwork1.srcs/sources_1/imports/imports/new/sc_cu.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/sc_datamem.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/sc_instmem.v" \
+"../../../../bigwork1.srcs/sources_1/imports/src/seg7.v" \
+"../../../../bigwork1.srcs/sources_1/new/sys_clock_counter.v" \
+"../../../../bigwork1.srcs/sim_1/imports/sim/TB_sc_computer_iotest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

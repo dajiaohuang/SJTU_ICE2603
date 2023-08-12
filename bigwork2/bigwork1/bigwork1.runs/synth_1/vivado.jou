@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May 23 21:51:08 2023
+# Process ID: 34384
+# Current directory: D:/Computer_Orgnization_lab/BigWork/lab4_final/lab4_away.runs/synth_1
+# Command line: vivado.exe -log sc_cpu_iotest.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sc_cpu_iotest.tcl
+# Log file: D:/Computer_Orgnization_lab/BigWork/lab4_final/lab4_away.runs/synth_1/sc_cpu_iotest.vds
+# Journal file: D:/Computer_Orgnization_lab/BigWork/lab4_final/lab4_away.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sc_cpu_iotest.tcl -notrace

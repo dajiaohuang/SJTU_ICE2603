@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_sc_computer_iotest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_sc_computer_iotest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3196195fs"></ZoomStartTime>
+      <ZoomEndTime time="3320996fs"></ZoomEndTime>
+      <Cursor1Time time="3285395fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="407"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/TB_sc_computer_iotest/seg_cs_pin" type="array">
+      <obj_property name="ElementShortName">seg_cs_pin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_cs_pin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/seg_data_0_pin" type="array">
+      <obj_property name="ElementShortName">seg_data_0_pin[0:7]</obj_property>
+      <obj_property name="ObjectShortName">seg_data_0_pin[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/seg_data_1_pin" type="array">
+      <obj_property name="ElementShortName">seg_data_1_pin[0:7]</obj_property>
+      <obj_property name="ObjectShortName">seg_data_1_pin[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/led_pin" type="array">
+      <obj_property name="ElementShortName">led_pin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led_pin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/sys_clk_in" type="logic">
+      <obj_property name="ElementShortName">sys_clk_in</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/sw_pin" type="array">
+      <obj_property name="ElementShortName">sw_pin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_pin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/dip_pin" type="array">
+      <obj_property name="ElementShortName">dip_pin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_pin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/CYC" type="array">
+      <obj_property name="ElementShortName">CYC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CYC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/sc_computer_iotest_instance/computer_main/out_port2" type="array">
+      <obj_property name="ElementShortName">out_port2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer_iotest/sc_computer_iotest_instance/computer_main/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+</wave_config>

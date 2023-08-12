@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a50tcsg324-1" LaunchTime="1685349568">
+  <File Type="BITSTR-BMM" Name="sc_cpu_iotest_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="sc_cpu_iotest_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="sc_cpu_iotest_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="sc_cpu_iotest_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="sc_cpu_iotest.tcl"/>
+  <File Type="OPT-TIMING" Name="sc_cpu_iotest_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="sc_cpu_iotest_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="sc_cpu_iotest_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="sc_cpu_iotest_reports.tcl"/>
+  <File Type="OPT-DRC" Name="sc_cpu_iotest_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="sc_cpu_iotest.hwdef"/>
+  <File Type="PWROPT-DCP" Name="sc_cpu_iotest_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="sc_cpu_iotest_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="sc_cpu_iotest_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="sc_cpu_iotest_placed.dcp"/>
+  <File Type="PLACE-IO" Name="sc_cpu_iotest_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="sc_cpu_iotest_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="sc_cpu_iotest_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sc_cpu_iotest_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="sc_cpu_iotest_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="sc_cpu_iotest_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sc_cpu_iotest_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="sc_cpu_iotest_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sc_cpu_iotest_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="sc_cpu_iotest.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="sc_cpu_iotest_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="sc_cpu_iotest_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="sc_cpu_iotest_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="sc_cpu_iotest.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="sc_cpu_iotest_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sc_cpu_iotest_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="sc_cpu_iotest_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sc_cpu_iotest_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="sc_cpu_iotest_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="sc_cpu_iotest_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="sc_cpu_iotest_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="sc_cpu_iotest.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sc_cpu_iotest_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sc_cpu_iotest_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sc_cpu_iotest_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="sc_cpu_iotest_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="sc_cpu_iotest_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="sc_cpu_iotest_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sc_cpu_iotest_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="sc_cpu_iotest_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sc_cpu_iotest_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="sc_cpu_iotest_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="sc_cpu_iotest_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="sc_cpu_iotest_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="sc_cpu_iotest_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="sc_cpu_iotest_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sc_cpu_iotest_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sc_cpu_iotest_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="sc_cpu_iotest_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="sc_cpu_iotest_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="sc_cpu_iotest_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="sc_cpu_iotest_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="sc_cpu_iotest_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="sc_cpu_iotest.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="sc_cpu_iotest_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="sc_cpu_iotest.rbt"/>
+  <File Type="BITSTR-NKY" Name="sc_cpu_iotest.nky"/>
+  <File Type="PDI-FILE" Name="sc_cpu_iotest.pdi"/>
+  <File Type="RCFI_FILE" Name="sc_cpu_iotest.rcfi"/>
+  <File Type="CFI_FILE" Name="sc_cpu_iotest.cfi"/>
+  <File Type="RNPI_FILE" Name="sc_cpu_iotest.rnpi"/>
+  <File Type="NPI_FILE" Name="sc_cpu_iotest.npi"/>
+  <File Type="RBD_FILE" Name="sc_cpu_iotest.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="sc_cpu_iotest.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="sc_cpu_iotest.sysdef"/>
+  <File Type="BG-BGN" Name="sc_cpu_iotest.bgn"/>
+  <File Type="BG-DRC" Name="sc_cpu_iotest.drc"/>
+  <File Type="RDI-RDI" Name="sc_cpu_iotest.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/imports/Grade_Second_Second-term/lab1/lab1/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/Grade_Second_Second-term/lab1/lab1/alu.v"/>
+        <Attr Name="ImportTime" Val="1682849736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/cla32.v"/>
+        <Attr Name="ImportTime" Val="1682849184"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/clock_and_mem_clock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/clock_and_mem_clock.v"/>
+        <Attr Name="ImportTime" Val="1640255626"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dec2dec.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Grade_Second_Second-term/lab2/lab2/dff32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/Grade_Second_Second-term/lab2/lab2/dff32.v"/>
+        <Attr Name="ImportTime" Val="1680318464"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/display.v"/>
+        <Attr Name="ImportTime" Val="1640246365"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/immext.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/new/immext.v"/>
+        <Attr Name="ImportTime" Val="1682850085"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/in_port.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/in_port.v"/>
+        <Attr Name="ImportTime" Val="1640849253"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/io_input.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/io_input.v"/>
+        <Attr Name="ImportTime" Val="1640259645"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/io_output.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/io_output.v"/>
+        <Attr Name="ImportTime" Val="1640260114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux2x32.v"/>
+        <Attr Name="ImportTime" Val="1252908544"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/mux4x32.v"/>
+        <Attr Name="ImportTime" Val="1682849251"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/out_port_hex2dec.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/out_port_hex2dec.v"/>
+        <Attr Name="ImportTime" Val="1640259720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/regfile.v"/>
+        <Attr Name="ImportTime" Val="1639981609"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sc_computer_main.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/sc_computer_main.v"/>
+        <Attr Name="ImportTime" Val="1649416331"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sc_cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/sc_cpu.v"/>
+        <Attr Name="ImportTime" Val="1640847410"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/new/sc_cu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../LAB3_FINAL_23.5.2/LAB3_FINAL_23.5.2.srcs/sources_1/imports/new/sc_cu.v"/>
+        <Attr Name="ImportTime" Val="1682850960"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sc_datamem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/sc_datamem.v"/>
+        <Attr Name="ImportTime" Val="1640845657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sc_instmem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/sc_instmem.v"/>
+        <Attr Name="ImportTime" Val="1640261914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/seg7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/seg7.v"/>
+        <Attr Name="ImportTime" Val="1639380334"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sys_clock_counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab4_final/lab4_away.srcs/sources_1/new/sys_clock_counter.v"/>
+        <Attr Name="ImportTime" Val="1684811211"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sc_cpu_iotest.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/src/sc_cpu_iotest.v"/>
+        <Attr Name="ImportTime" Val="1640848458"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab4/lpm_rom_irom_io.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/coe/lab4/lpm_rom_irom_io.coe"/>
+        <Attr Name="ImportTime" Val="1683809991"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab4/sc_datamem.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/coe/lab4/sc_datamem.coe"/>
+        <Attr Name="ImportTime" Val="1635495954"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sc_cpu_iotest"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constr/sc_computer_iotest.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/zip_lab4 sc_computer_io/constr/sc_computer_iotest.xdc"/>
+        <Attr Name="ImportTime" Val="1640057750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="lpm_rom_irom"/>
+  <BlockFileSet Type="BlockSrcs" Name="lpm_ram_dq_dram"/>
+</GenRun>

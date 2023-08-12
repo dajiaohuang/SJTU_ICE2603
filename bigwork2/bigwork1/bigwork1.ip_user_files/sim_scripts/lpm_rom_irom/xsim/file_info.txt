@@ -1,0 +1,2 @@
+lpm_rom_irom.v,verilog,xil_defaultlib,../../../../lab4_away.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

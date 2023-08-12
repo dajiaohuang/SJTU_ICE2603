@@ -1,0 +1,28 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+F:/ice2603lab/lab_4/lab_4.gen/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v,1683878081,verilog,,F:/ice2603lab/lab_4/lab_4.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,,lpm_ram_dq_dram,,,,,,,,
+F:/ice2603lab/lab_4/lab_4.gen/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,1683878143,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/alu.v,,lpm_rom_irom,,,,,,,,
+F:/ice2603lab/lab_4/lab_4.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/alu.v,1653980814,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v,,alu,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v,1586946770,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/clock_and_mem_clock.v,,cla32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v,1635303178,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/display.v,,dff32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/immext.v,1651562970,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/in_port.v,,immext,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v,1252908544,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v,,mux2x32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v,1252998688,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/out_port_hex2dec.v,,mux4x32,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v,1639981609,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_computer_main.v,,regfile,,,,,,,,
+F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v,1653983594,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_datamem.v,,sc_cu,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v,1683874913,verilog,,,,TB_sc_computer_iotest,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/clock_and_mem_clock.v,1640255626,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v,,clock_and_mem_clock,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/display.v,1640246365,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/immext.v,,display,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/in_port.v,1640849253,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/io_input.v,,in_port,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/io_input.v,1640259645,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/io_output.v,,io_input;io_input_mux,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/io_output.v,1653981374,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v,,io_output,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/out_port_hex2dec.v,1640259720,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v,,out_port_hex2dec,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_computer_main.v,1653981389,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v,,sc_computer_main,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v,1653487625,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu_iotest.v,,sc_cpu,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu_iotest.v,1653981538,verilog,,F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v,,sc_cpu_iotest,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_datamem.v,1653981389,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_instmem.v,,sc_datamem,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_instmem.v,1640261914,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/src/seg7.v,,sc_instmem,,,,,,,,
+F:/ice2603lab/zip_lab4 sc_computer_io/src/seg7.v,1639380334,verilog,,F:/ice2603lab/zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v,,seg7,,,,,,,,

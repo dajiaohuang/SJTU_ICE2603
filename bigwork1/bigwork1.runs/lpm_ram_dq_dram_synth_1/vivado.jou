@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 27 23:33:07 2023
+# Process ID: 5608
+# Current directory: F:/ice2603lab/bigwork1/bigwork1.runs/lpm_ram_dq_dram_synth_1
+# Command line: vivado.exe -log lpm_ram_dq_dram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lpm_ram_dq_dram.tcl
+# Log file: F:/ice2603lab/bigwork1/bigwork1.runs/lpm_ram_dq_dram_synth_1/lpm_ram_dq_dram.vds
+# Journal file: F:/ice2603lab/bigwork1/bigwork1.runs/lpm_ram_dq_dram_synth_1\vivado.jou
+#-----------------------------------------------------------
+source lpm_ram_dq_dram.tcl -notrace

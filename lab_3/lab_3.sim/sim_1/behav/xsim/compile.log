@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab_3/lab_3.gen/sources_1/ip/lpm_ram_dq_dram_2/sim/lpm_ram_dq_dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_ram_dq_dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab_3/lab_3.gen/sources_1/ip/lpm_rom_irom_2/sim/lpm_rom_irom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_rom_irom
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab_3/lab_3.srcs/sources_1/new/immext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immext
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab2/sc_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/sc_datamem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_datamem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/sc_instmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_instmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer

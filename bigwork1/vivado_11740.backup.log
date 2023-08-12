@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 27 23:31:51 2023
+# Process ID: 11740
+# Current directory: F:/ice2603lab/bigwork1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2328 F:\ice2603lab\bigwork1\bigwork1.xpr
+# Log file: F:/ice2603lab/bigwork1/vivado.log
+# Journal file: F:/ice2603lab/bigwork1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ice2603lab/bigwork1/bigwork1.xpr
+INFO: [Project 1-313] Project file moved from 'F:/ice2603lab/bigwork2' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/lab4/zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 27 23:32:43 2023...

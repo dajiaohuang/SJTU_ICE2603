@@ -1,0 +1,116 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue May 23 21:52:52 2023
+| Host         : 5456es running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sc_cpu_iotest_control_sets_placed.rpt
+| Design       : sc_cpu_iotest
+| Device       : xc7a50t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    38 |
+|    Minimum number of control sets                        |    38 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    22 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    38 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    37 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              55 |           27 |
+| No           | No                    | Yes                    |              83 |           27 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            1104 |          526 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|      Clock Signal     |               Enable Signal               |           Set/Reset Signal          | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------+-------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|  sys_clk_in_IBUF_BUFG |                                           |                                     |                6 |             13 |         2.17 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_10[0] | computer_main/cpu/regfile/sys_rst_n |               22 |             32 |         1.45 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10][0]    | computer_main/cpu/regfile/sys_rst_n |               18 |             32 |         1.78 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_1[0]  | computer_main/cpu/regfile/sys_rst_n |               15 |             32 |         2.13 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_0[0]  | computer_main/cpu/regfile/sys_rst_n |               13 |             32 |         2.46 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[9]_0[0]   | computer_main/cpu/regfile/sys_rst_n |               11 |             32 |         2.91 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_6[0]  | computer_main/cpu/regfile/sys_rst_n |               23 |             32 |         1.39 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_9[0]  | computer_main/cpu/regfile/sys_rst_n |               19 |             32 |         1.68 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_7[0]  | computer_main/cpu/regfile/sys_rst_n |               13 |             32 |         2.46 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[11][0]    | computer_main/cpu/regfile/sys_rst_n |               13 |             32 |         2.46 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_21[0] | computer_main/cpu/regfile/sys_rst_n |               12 |             32 |         2.67 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_22[0] | computer_main/cpu/regfile/sys_rst_n |               10 |             32 |         3.20 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_11[0] | computer_main/cpu/regfile/sys_rst_n |               14 |             32 |         2.29 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_2[0]  | computer_main/cpu/regfile/sys_rst_n |               12 |             32 |         2.67 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_23[0] | computer_main/cpu/regfile/sys_rst_n |               19 |             32 |         1.68 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_5[0]  | computer_main/cpu/regfile/sys_rst_n |               13 |             32 |         2.46 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[11]_0[0]  | computer_main/cpu/regfile/sys_rst_n |                9 |             32 |         3.56 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_3[0]  | computer_main/cpu/regfile/sys_rst_n |               18 |             32 |         1.78 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_20[0] | computer_main/cpu/regfile/sys_rst_n |               15 |             32 |         2.13 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_15[0] | computer_main/cpu/regfile/sys_rst_n |               18 |             32 |         1.78 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_18[0] | computer_main/cpu/regfile/sys_rst_n |               15 |             32 |         2.13 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_12[0] | computer_main/cpu/regfile/sys_rst_n |               16 |             32 |         2.00 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[9][0]     | computer_main/cpu/regfile/sys_rst_n |               14 |             32 |         2.29 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_14[0] | computer_main/cpu/regfile/sys_rst_n |               14 |             32 |         2.29 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_8[0]  | computer_main/cpu/regfile/sys_rst_n |               15 |             32 |         2.13 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_24[0] | computer_main/cpu/regfile/sys_rst_n |               15 |             32 |         2.13 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_13[0] | computer_main/cpu/regfile/sys_rst_n |               16 |             32 |         2.00 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_17[0] | computer_main/cpu/regfile/sys_rst_n |               16 |             32 |         2.00 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_4[0]  | computer_main/cpu/regfile/sys_rst_n |               18 |             32 |         1.78 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_19[0] | computer_main/cpu/regfile/sys_rst_n |               18 |             32 |         1.78 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[10]_16[0] | computer_main/cpu/regfile/sys_rst_n |               21 |             32 |         1.52 |
+|  clock_BUFG           | computer_main/imem/bbstub_douta[7][0]     | computer_main/cpu/regfile/sys_rst_n |               16 |             32 |         2.00 |
+|  clock_BUFG           |                                           | computer_main/cpu/regfile/sys_rst_n |               14 |             32 |         2.29 |
+|  dmem_clock_BUFG      | computer_main/imem/E[0]                   | computer_main/cpu/regfile/sys_rst_n |               14 |             37 |         2.64 |
+|  dmem_clock_BUFG      | computer_main/imem/clock_out_reg[0]       | computer_main/cpu/regfile/sys_rst_n |               13 |             37 |         2.85 |
+|  dmem_clock_BUFG      | computer_main/imem/clock_out_reg_0[0]     | computer_main/cpu/regfile/sys_rst_n |               18 |             38 |         2.11 |
+|  dmem_clock_BUFG      |                                           |                                     |               21 |             42 |         2.00 |
+|  sys_clk_in_IBUF_BUFG |                                           | computer_main/cpu/regfile/sys_rst_n |               13 |             51 |         3.92 |
++-----------------------+-------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+
+

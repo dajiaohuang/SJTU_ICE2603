@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Apr 15 22:01:20 2023
+| Host         : CH-202208121303 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file irom_test_top_bus_skew_routed.rpt -pb irom_test_top_bus_skew_routed.pb -rpx irom_test_top_bus_skew_routed.rpx
+| Design       : irom_test_top
+| Device       : 7a50t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

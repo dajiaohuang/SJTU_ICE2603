@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 21 11:34:55 2023
+# Process ID: 8744
+# Current directory: F:/ice2603lab/lab0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12156 F:\ice2603lab\lab0\lab0.xpr
+# Log file: F:/ice2603lab/lab0/vivado.log
+# Journal file: F:/ice2603lab/lab0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ice2603lab/lab0/lab0.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'F:/ice2603lab/lab0/lab0.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 21 11:42:30 2023...

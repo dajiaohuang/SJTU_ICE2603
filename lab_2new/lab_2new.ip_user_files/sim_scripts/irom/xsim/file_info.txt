@@ -1,2 +1,0 @@
-irom.v,verilog,xil_defaultlib,../../../../lab_2new.gen/sources_1/ip/irom/sim/irom.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v

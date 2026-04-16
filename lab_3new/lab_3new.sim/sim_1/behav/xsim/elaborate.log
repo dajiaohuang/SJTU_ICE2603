@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 77fd68042eb3472da19fd18a80ef8bf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot teatbench_behav xil_defaultlib.teatbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:28]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

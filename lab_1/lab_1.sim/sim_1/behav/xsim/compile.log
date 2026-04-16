@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab1/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab1/seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab1/alu_test_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_test_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/ice2603lab/lab_1/lab_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

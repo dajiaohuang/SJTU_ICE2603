@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 30 21:05:32 2023
+# Process ID: 13580
+# Current directory: F:/ice2603lab/lab_3new/lab_3new.runs/synth_1
+# Command line: vivado.exe -log teatbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source teatbench.tcl
+# Log file: F:/ice2603lab/lab_3new/lab_3new.runs/synth_1/teatbench.vds
+# Journal file: F:/ice2603lab/lab_3new/lab_3new.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source teatbench.tcl -notrace
+Command: synth_design -top teatbench -part xc7a75tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Device 21-403] Loading part xc7a75tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10208
+WARNING: [Synth 8-992] clk is already implicitly declared earlier [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:33]
+WARNING: [Synth 8-992] rstn is already implicitly declared earlier [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:33]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1127.344 ; gain = 16.523
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'teatbench' [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:23]
+	Parameter clk_period bound to: 10 - type: integer 
+WARNING: [Synth 8-6896] loop limit (65536) exceeded inside initial block, initial block items will be ignored [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:38]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:26]
+INFO: [Synth 8-6157] synthesizing module 'sc_computer' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:8]
+INFO: [Synth 8-6157] synthesizing module 'sc_cpu' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dff32' [F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dff32' (1#1) [F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'immext' [F:/ice2603lab/zip_lab3 sc_computer/src/immext.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'immext' (2#1) [F:/ice2603lab/zip_lab3 sc_computer/src/immext.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (3#1) [F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sc_cu' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sc_cu' (4#1) [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [F:/ice2603lab/zip_lab3 sc_computer/src/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (5#1) [F:/ice2603lab/zip_lab3 sc_computer/src/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4x32' [F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x32' (6#1) [F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32' [F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32' (7#1) [F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cla32' [F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cla32' (8#1) [F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v:1]
+WARNING: [Synth 8-7071] port 'x2' of module 'cla32' is unconnected for instance 'pcplus4' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:84]
+WARNING: [Synth 8-7023] instance 'pcplus4' of module 'cla32' has 4 connections declared, but only 3 given [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:84]
+WARNING: [Synth 8-7071] port 'x2' of module 'cla32' is unconnected for instance 'branch_adr' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:90]
+WARNING: [Synth 8-7023] instance 'branch_adr' of module 'cla32' has 4 connections declared, but only 3 given [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:90]
+WARNING: [Synth 8-7071] port 'x2' of module 'cla32' is unconnected for instance 'genjalrpc' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:96]
+WARNING: [Synth 8-7023] instance 'genjalrpc' of module 'cla32' has 4 connections declared, but only 3 given [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:96]
+INFO: [Synth 8-6155] done synthesizing module 'sc_cpu' (9#1) [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cpu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sc_instmem' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_instmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lpm_rom_irom' [F:/ice2603lab/lab_3new/lab_3new.runs/synth_1/.Xil/Vivado-13580-CH-202208121303/realtime/lpm_rom_irom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'lpm_rom_irom' (10#1) [F:/ice2603lab/lab_3new/lab_3new.runs/synth_1/.Xil/Vivado-13580-CH-202208121303/realtime/lpm_rom_irom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sc_instmem' (11#1) [F:/ice2603lab/zip_lab3 sc_computer/src/sc_instmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sc_datamem' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_datamem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lpm_ram_dq_dram' [F:/ice2603lab/lab_3new/lab_3new.runs/synth_1/.Xil/Vivado-13580-CH-202208121303/realtime/lpm_ram_dq_dram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'lpm_ram_dq_dram' (12#1) [F:/ice2603lab/lab_3new/lab_3new.runs/synth_1/.Xil/Vivado-13580-CH-202208121303/realtime/lpm_ram_dq_dram_stub.v:6]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (5) of module 'lpm_ram_dq_dram' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_datamem.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'sc_datamem' (13#1) [F:/ice2603lab/zip_lab3 sc_computer/src/sc_datamem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sc_computer' (14#1) [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:8]
+ERROR: [Synth 8-660] unable to resolve 'resetn' [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:27]
+ERROR: [Synth 8-660] unable to resolve 'clock' [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:28]
+ERROR: [Synth 8-660] unable to resolve 'mem_clk' [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:29]
+ERROR: [Synth 8-6156] failed synthesizing module 'teatbench' [F:/ice2603lab/lab_3new/lab_3new.srcs/sources_1/new/teatbench.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1220.625 ; gain = 109.805
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 11 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 21:05:44 2023...

@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 17 23:19:06 2023
+# Process ID: 18228
+# Current directory: F:/ice2603lab/lab4_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4616 F:\ice2603lab\lab4_new\lab4_new.xpr
+# Log file: F:/ice2603lab/lab4_new/vivado.log
+# Journal file: F:/ice2603lab/lab4_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ice2603lab/lab4_new/lab4_new.xpr
+INFO: [Project 1-313] Project file moved from 'F:/ice2603lab/lab4_away' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/ice2603lab/lab4/zip_lab4 sc_computer_io/sim/TB_sc_computer_iotest.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 1111.086 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 23:20:34 2023...
+q_dram_synth_1
+
+reset_run lpm_rom_irom_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ice2603lab/lab4_new/lab4_new.runs/lpm_rom_irom_synth_1
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ice2603lab/lab4_new/lab4_new.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+WARNING: [HDL 9-3756] overwriting previous definition of module 'alu' [F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/imports/Grade_Second_Second-term/lab1/lab1/alu.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'sc_computer_main' [F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/src/sc_computer_main.v:7]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'sc_cpu' [F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/src/sc_cpu.v:1]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'alu()' found in library 'xil_defaultlib'
+Duplicate found at line 1 of file F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/Grade_Second_Second-term/lab1/lab1/alu.v
+	(Active) Duplicate found at line 1 of file F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/imports/Grade_Second_Second-term/lab1/lab1/alu.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'sc_computer_main()' found in library 'xil_defaultlib'
+Duplicate found at line 7 of file F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_computer.v
+	(Active) Duplicate found at line 7 of file F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/src/sc_computer_main.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'sc_cpu()' found in library 'xil_defaultlib'
+Duplicate found at line 1 of file F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/imports/Grade_Second_Second-term/lab3/lab3/zip_lab3 sc_computer/zip_lab3 sc_computer/src/sc_cpu.v
+	(Active) Duplicate found at line 1 of file F:/ice2603lab/lab4_new/lab4_new.srcs/sources_1/imports/src/sc_cpu.v
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'lpm_ram_dq_dram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'lpm_rom_irom'...
+[Wed May 17 23:19:44 2023] Launched lpm_ram_dq_dram_synth_1, lpm_rom_irom_synth_1...
+Run output will be captured here:
+lpm_ram_dq_dram_synth_1: F:/ice2603lab/lab4_new/lab4_new.runs/lpm_ram_dq_dram_synth_1/runme.log
+lpm_rom_irom_synth_1: F:/ice2603lab/lab4_new/lab4_new.runs/lpm_rom_irom_synth_1/runme.log
+[Wed May 17 23:19:44 2023] Launched synth_1...
+Run output will be captured here: F:/ice2603lab/lab4_new/lab4_new.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/ice2603lab/lab4_new/lab4_new.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Wed May 17 23:20:40 2023] Launched synth_1...
+Run output will be captured here: F:/ice2603lab/lab4_new/lab4_new.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 23:20:48 2023...

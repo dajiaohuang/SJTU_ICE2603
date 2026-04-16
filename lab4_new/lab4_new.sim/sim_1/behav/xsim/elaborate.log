@@ -1,0 +1,43 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/My_Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 89e6ea0589e34174aa99839efe9863d2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_sc_computer_iotest_behav xil_defaultlib.TB_sc_computer_iotest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'addra' [D:/Computer_Orgnization_lab/lab4/lab4.srcs/sources_1/imports/src/sc_datamem.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_and_mem_clock
+Compiling module xil_defaultlib.in_port
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.immext
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.sc_cu
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.sc_cpu
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_rom_irom
+Compiling module xil_defaultlib.sc_instmem
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.lpm_ram_dq_dram
+Compiling module xil_defaultlib.io_output
+Compiling module xil_defaultlib.io_input_mux
+Compiling module xil_defaultlib.io_input
+Compiling module xil_defaultlib.sc_datamem
+Compiling module xil_defaultlib.sc_computer_main
+Compiling module xil_defaultlib.out_port_hex2dec
+Compiling module xil_defaultlib.seg7
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.sc_cpu_iotest
+Compiling module xil_defaultlib.TB_sc_computer_iotest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_sc_computer_iotest_behav

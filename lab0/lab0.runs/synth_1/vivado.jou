@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 21 19:05:33 2023
+# Process ID: 2144
+# Current directory: F:/ice2603lab/lab0/lab0.runs/synth_1
+# Command line: vivado.exe -log add_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source add_tb.tcl
+# Log file: F:/ice2603lab/lab0/lab0.runs/synth_1/add_tb.vds
+# Journal file: F:/ice2603lab/lab0/lab0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source add_tb.tcl -notrace

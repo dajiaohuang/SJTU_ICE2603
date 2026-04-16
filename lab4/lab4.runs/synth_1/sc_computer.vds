@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 12 01:51:41 2023
+# Process ID: 11212
+# Current directory: F:/ice2603lab/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log sc_computer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sc_computer.tcl
+# Log file: F:/ice2603lab/lab4/lab4.runs/synth_1/sc_computer.vds
+# Journal file: F:/ice2603lab/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sc_computer.tcl -notrace
+Command: synth_design -top sc_computer -part xc7a50tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Device 21-403] Loading part xc7a50tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8880
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1111.949 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'sc_computer' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:8]
+INFO: [Synth 8-6157] synthesizing module 'sc_cpu' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dff32' [F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dff32' (1#1) [F:/ice2603lab/zip_lab3 sc_computer/src/dff32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'immext' [F:/ice2603lab/zip_lab3 sc_computer/src/immext.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'immext' (2#1) [F:/ice2603lab/zip_lab3 sc_computer/src/immext.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (3#1) [F:/ice2603lab/zip_lab3 sc_computer/src/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sc_cu' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'sc_cu' (4#1) [F:/ice2603lab/zip_lab3 sc_computer/src/sc_cu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [F:/ice2603lab/zip_lab3 sc_computer/src/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (5#1) [F:/ice2603lab/zip_lab3 sc_computer/src/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4x32' [F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x32' (6#1) [F:/ice2603lab/zip_lab3 sc_computer/src/mux4x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32' [F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32' (7#1) [F:/ice2603lab/zip_lab3 sc_computer/src/mux2x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cla32' [F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cla32' (8#1) [F:/ice2603lab/zip_lab3 sc_computer/src/cla32.v:1]
+WARNING: [Synth 8-7071] port 'x2' of module 'cla32' is unconnected for instance 'pcplus4' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:86]
+WARNING: [Synth 8-7023] instance 'pcplus4' of module 'cla32' has 4 connections declared, but only 3 given [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:86]
+WARNING: [Synth 8-7071] port 'x2' of module 'cla32' is unconnected for instance 'branch_adr' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:92]
+WARNING: [Synth 8-7023] instance 'branch_adr' of module 'cla32' has 4 connections declared, but only 3 given [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:92]
+WARNING: [Synth 8-7071] port 'x2' of module 'cla32' is unconnected for instance 'genjalrpc' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:98]
+WARNING: [Synth 8-7023] instance 'genjalrpc' of module 'cla32' has 4 connections declared, but only 3 given [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'sc_cpu' (9#1) [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_cpu.v:1]
+WARNING: [Synth 8-7071] port 'regf_din' of module 'sc_cpu' is unconnected for instance 'cpu' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:16]
+WARNING: [Synth 8-7023] instance 'cpu' of module 'sc_cpu' has 9 connections declared, but only 8 given [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:16]
+INFO: [Synth 8-6157] synthesizing module 'sc_instmem' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_instmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lpm_rom_irom' [F:/ice2603lab/lab4/lab4.runs/synth_1/.Xil/Vivado-11212-CH-202208121303/realtime/lpm_rom_irom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'lpm_rom_irom' (10#1) [F:/ice2603lab/lab4/lab4.runs/synth_1/.Xil/Vivado-11212-CH-202208121303/realtime/lpm_rom_irom_stub.v:6]
+WARNING: [Synth 8-689] width (6) of port connection 'addra' does not match port width (5) of module 'lpm_rom_irom' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_instmem.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'sc_instmem' (11#1) [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_instmem.v:1]
+ERROR: [Synth 8-448] named port connection 'mem_clk' does not exist for instance 'imem' of module 'sc_instmem' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:31]
+ERROR: [Synth 8-448] named port connection 'imem_clk' does not exist for instance 'imem' of module 'sc_instmem' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:32]
+INFO: [Synth 8-6157] synthesizing module 'sc_datamem' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_datamem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lpm_ram_dq_dram' [F:/ice2603lab/lab4/lab4.runs/synth_1/.Xil/Vivado-11212-CH-202208121303/realtime/lpm_ram_dq_dram_stub.v:6]
+ERROR: [Synth 8-6156] failed synthesizing module 'lpm_ram_dq_dram' [F:/ice2603lab/lab4/lab4.runs/synth_1/.Xil/Vivado-11212-CH-202208121303/realtime/lpm_ram_dq_dram_stub.v:6]
+ERROR: [Synth 8-6156] failed synthesizing module 'sc_datamem' [F:/ice2603lab/zip_lab4 sc_computer_io/src/sc_datamem.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'sc_computer' [F:/ice2603lab/zip_lab3 sc_computer/src/sc_computer.v:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1170.246 ; gain = 58.297
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 9 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri May 12 01:51:53 2023...
